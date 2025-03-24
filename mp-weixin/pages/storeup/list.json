@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#E9BE70",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

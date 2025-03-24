@@ -1,0 +1,120 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/chat/chat",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/daikuanxinxi/list",
+    "pages/daikuanxinxi/add-or-update",
+    "pages/daikuanxinxi/detail",
+    "pages/daikuanshenqing/list",
+    "pages/daikuanshenqing/add-or-update",
+    "pages/daikuanshenqing/detail",
+    "pages/daikuanzhonglei/list",
+    "pages/daikuanzhonglei/add-or-update",
+    "pages/daikuanzhonglei/detail",
+    "pages/daibanxiangmu/list",
+    "pages/daibanxiangmu/add-or-update",
+    "pages/daibanxiangmu/detail",
+    "pages/xiangmufenlei/list",
+    "pages/xiangmufenlei/add-or-update",
+    "pages/xiangmufenlei/detail",
+    "pages/jifenshangcheng/list",
+    "pages/jifenshangcheng/add-or-update",
+    "pages/jifenshangcheng/detail",
+    "pages/jifenduihuan/list",
+    "pages/jifenduihuan/add-or-update",
+    "pages/jifenduihuan/detail",
+    "pages/daibanshenqing/list",
+    "pages/daibanshenqing/add-or-update",
+    "pages/daibanshenqing/detail",
+    "pages/jifenzengjia/list",
+    "pages/jifenzengjia/add-or-update",
+    "pages/jifenzengjia/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/aboutus/list",
+    "pages/aboutus/add-or-update",
+    "pages/aboutus/detail",
+    "pages/systemintro/list",
+    "pages/systemintro/add-or-update",
+    "pages/systemintro/detail",
+    "pages/discussdaikuanxinxi/list",
+    "pages/discussdaikuanxinxi/add-or-update",
+    "pages/discussdaikuanxinxi/detail",
+    "common/linkOthers/linkOthers",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的小微金融企业的设计与实现",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#333333",
+    "borderStyle": "white",
+    "backgroundColor": "#E9BE70",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/daikuanxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "贷款信息"
+      },
+      {
+        "pagePath": "pages/daibanxiangmu/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "代办项目"
+      },
+      {
+        "pagePath": "pages/jifenshangcheng/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "积分商城"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}
